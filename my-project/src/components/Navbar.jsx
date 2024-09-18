@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link to="/products" style={styles.navLink}>Products</Link>
         </li>
         <li style={styles.navItem}>
-          <Link to="/todoslisting" style={styles.navLink}>Todos</Link>
+          <Link to="/todoslistings" style={styles.navLink}>TodosListings</Link>
         </li>
       </ul>
     </nav>
