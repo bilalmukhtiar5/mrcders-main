@@ -26,6 +26,8 @@ const TodosListings = () => {
     useEffect(() => {
         fetchData()
     },[])
+    const userId = 1;
+    const filterTodos = todos.filter((todo) => todo.userId == userId)
     const fetchData = async() => {
         const response = await axios.get("https://jsonplaceholder.typicode.com/todos")
         setTodos(response.data)
