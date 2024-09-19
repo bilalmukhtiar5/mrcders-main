@@ -6,6 +6,7 @@ import Products from './components/Products'
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import TodosListings from './pages/TodosListings';
+import ResponsiveNavbar from './components/ResponsiveNavbar';
 
 function App() {
   
@@ -23,6 +24,8 @@ function App() {
       </Routes>
     </Router>
       
+    <ResponsiveNavbar />
+
     
     </>
   )
